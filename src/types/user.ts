@@ -1,4 +1,4 @@
-export type LocalGitubUser = {
+export type LocalGithubUser = {
 	login: string,
 	id: number,
 	avatar: string,
@@ -6,9 +6,9 @@ export type LocalGitubUser = {
 	company: string,
 	blog: string,
 	location: string,
-	bio: string,
+	bio?: string,
 	twitter: string
-	public_repos: number,
+	repos: number,
 	followers: number,
 	following: number,
 	created: string
